@@ -1,1 +1,87 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Helvetica;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.lorem {
+  padding: 2px;
+  border: 2px solid black;
+  background-color: lightblue;
+  width: 90%;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  background-color: lightblue;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.head {
+  position: relative;
+	font-size: 125%;
+	border: 2px solid black;
+  width: 25%;
+  top: 20px;
+  left: 70%;
+}
+
+.head.Chicken {
+	background-color:#A93226;
+}
+
+.head.Fish {
+	background-color:#27AE60;
+}
+
+.head.Veg {
+	background-color:#F1C40F;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    position: relative;
+    width: 33.33%;
+    float: left;
+    border: 2px solid black;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    position: relative;
+    float: left;
+    width: 50%;
+    border: 2px solid black;
+  }
+  .col-md-12 {
+    position: relative;
+    float: left;
+    width: 100%;
+    border: 2px solid black;
+  }
+}
+/********** Small devices only **********/
+@media (max-width: 768px) {
+  .col-sm-12 {
+    position: relative;
+    float: left;
+    width: 100%;
+    border: 2px solid black;
+  }
+}
 
