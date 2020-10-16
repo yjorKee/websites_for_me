@@ -1,0 +1,102 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 2.5px solid black;;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.navbar-brand {
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+
+#big_main_section {
+  height: auto;
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+p {
+  padding: 7px;
+  text-align: justify;
+}
+
+#header {
+  font-size: 2em;
+  text-align: center;
+  padding: 6px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    border-top: 2px black solid;
+  }
+
+  #a_tagsushi {
+    border-bottom: 2px solid black;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+}
